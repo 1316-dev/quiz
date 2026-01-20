@@ -1,0 +1,56 @@
+body {
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(36, 47, 145);
+}
+
+button {
+    font-size: 1em;
+    margin : 5%;
+    padding: 10px;
+    background-color: white;;
+    border : solid  rgb(29, 76, 129);
+    border-radius: 10px;
+    color: rgb(29, 76, 129);
+
+
+}
+
+button:hover {
+    background-color: rgb(29, 76, 129);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    border: solid  black;
+    border-radius: 10px;
+    margin: 20%;
+    padding: 5%;
+    background-color: white;
+}
+
+input {
+  margin: 0.8rem;
+
+}
+
+label {
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+#reset {
+    display : none;
+    width: 50%; 
+    margin: 0 auto;
+}
+
+#error {
+    display : none;
+    color: rgb(29, 76, 129);
+}
+
+    
